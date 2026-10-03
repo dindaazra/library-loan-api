@@ -82,6 +82,21 @@ DELETE /loans/{id}
 GET /loans?status=Dikembalikan
 ```
 
+## Contoh Response
+
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "member_name": "Dinda Azra",
+      "book_title": "Pemrograman Web",
+      "status": "Dikembalikan"
+    }
+  ]
+}
+```
+
 ## Instalasi dan Menjalankan
 
 ```bash
